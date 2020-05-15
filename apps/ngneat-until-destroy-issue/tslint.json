@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ngneatUntilDestroyIssue",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ngneat-until-destroy-issue",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
